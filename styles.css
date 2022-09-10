@@ -2,19 +2,25 @@
     box-sizing:border-box;
 }
 body {
-    background-color:rgba(139, 127, 127, 0.8);
-    color:aliceblue;
+    background-color:#2C3639;
+    color:#DCD7C9;
 }
 h1 {
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 2px;
+    margin:1.5em;
+}
+p {
+    font-weight:700;
+    text-align:center;
+    margin:2em;
 }
 img {
     width:300px;
     border-radius:10px;
     height:300px;
-    border: 5px solid rgba(255, 255, 255, 0.6);
+    border: 5px solid #DCD7C9;
 }
 .gallery {
     display:flex;
@@ -22,4 +28,8 @@ img {
     gap:16px;
     justify-content:center;
     align-items:center;
+}
+
+h3 {
+    text-align:center;
 }
